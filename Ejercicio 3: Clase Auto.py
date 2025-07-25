@@ -120,7 +120,7 @@ class AutoElectrico(Auto):
     def activar_autopiloto(self):
         if self._Auto__encendido:
             self.modo_autopiloto = True
-            print("Autopiloto activado. Conduciendo automáticamente 🚘🤖")
+            print("Autopiloto activado. Conduciendo automáticamente ")
         else:
             print("El auto debe estar encendido para activar el autopiloto.")
 
