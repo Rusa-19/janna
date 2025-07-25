@@ -8,7 +8,7 @@ class Libro:
 
     def _validar_paginas(self, paginas):
         if paginas < 10:
-            print(f"🚨 Advertencia: El número de páginas para '{self.titulo}' es muy bajo. Ajustado a 10.")
+            print(f"Advertencia: El número de páginas para '{self.titulo}' es muy bajo. Ajustado a 10.")
             return 10
         return paginas
 
