@@ -57,7 +57,7 @@ class PokemonLegendario(Pokemon):
 
     def usar_habilidad(self):
         print(f"{self.nombre} usa su habilidad especial: ¡{self.__habilidad_especial}!")
-        print("🤖✨ Un efecto épico sacude el campo de batalla.")
+        print(" Un efecto épico sacude el campo de batalla.")
 
 
 print("\n--- Ejercicio 2: Clase Pokémon ---")
